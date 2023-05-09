@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.container{
+    border: 3px solid blue;
+    width: 700px;
+    height: 500px;
+ position: relative;
+ left: 300px;
+ top: 100px;
+ border-radius: 20px;
+}
+.images{
+    display: flex;
+   position: relative;
+   flex: auto;
+   flex-wrap: wrap;
+   top: 20px;
+}
+legend, h6{
+    position: relative;
+    bottom: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+}
+#move{
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+}
+button{
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 20px;
+    background-color: gold;
+    position: relative;
+   
+}
+#like-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #like-button i{
+    font-size: 24px;
+  }
+  
+  #like-button.clicked i{
+    color: red;
+  }
+  #like-button:hover i {
+    color:red;
+  }
